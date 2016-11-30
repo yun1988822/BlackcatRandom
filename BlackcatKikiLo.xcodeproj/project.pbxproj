@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27159DA61A3586CC00E6BE74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27159DA51A3586CC00E6BE74 /* main.m */; };
+		27159DA91A3586CC00E6BE74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27159DA81A3586CC00E6BE74 /* AppDelegate.m */; };
+		27159DAC1A3586CC00E6BE74 /* BlackcatKikiLo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27159DAA1A3586CC00E6BE74 /* BlackcatKikiLo.xcdatamodeld */; };
+		27159DAF1A3586CC00E6BE74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27159DAE1A3586CC00E6BE74 /* ViewController.m */; };
+		27159DB21A3586CC00E6BE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27159DB01A3586CC00E6BE74 /* Main.storyboard */; };
+		27159DB71A3586CC00E6BE74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27159DB51A3586CC00E6BE74 /* LaunchScreen.xib */; };
+		27159DC31A3586CD00E6BE74 /* BlackcatKikiLoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27159DC21A3586CD00E6BE74 /* BlackcatKikiLoTests.m */; };
+		27159DE11A359B6400E6BE74 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27159DE01A359B6400E6BE74 /* EditViewController.m */; };
+		2788E67E1DED559400EF94FC /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2788E67A1DED559400EF94FC /* Background.png */; };
+		2788E67F1DED559400EF94FC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2788E67B1DED559400EF94FC /* Icon.png */; };
+		2788E6851DED579200EF94FC /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2788E6841DED579200EF94FC /* AppIcon.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27159DBD1A3586CC00E6BE74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27159D981A3586CC00E6BE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27159D9F1A3586CC00E6BE74;
+			remoteInfo = BlackcatKikiLo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27159DA01A3586CC00E6BE74 /* BlackcatKikiLo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackcatKikiLo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27159DA41A3586CC00E6BE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27159DA51A3586CC00E6BE74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27159DA71A3586CC00E6BE74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27159DA81A3586CC00E6BE74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27159DAB1A3586CC00E6BE74 /* BlackcatKikiLo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlackcatKikiLo.xcdatamodel; sourceTree = "<group>"; };
+		27159DAD1A3586CC00E6BE74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27159DAE1A3586CC00E6BE74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27159DB11A3586CC00E6BE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27159DB61A3586CC00E6BE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		27159DBC1A3586CC00E6BE74 /* BlackcatKikiLoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackcatKikiLoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27159DC11A3586CC00E6BE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27159DC21A3586CD00E6BE74 /* BlackcatKikiLoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackcatKikiLoTests.m; sourceTree = "<group>"; };
+		27159DDF1A359B6400E6BE74 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		27159DE01A359B6400E6BE74 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		2788E67A1DED559400EF94FC /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		2788E67B1DED559400EF94FC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2788E6841DED579200EF94FC /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27159D9D1A3586CC00E6BE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27159DB91A3586CC00E6BE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27159D971A3586CC00E6BE74 = {
+			isa = PBXGroup;
+			children = (
+				27159DA21A3586CC00E6BE74 /* BlackcatKikiLo */,
+				27159DBF1A3586CC00E6BE74 /* BlackcatKikiLoTests */,
+				27159DA11A3586CC00E6BE74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27159DA11A3586CC00E6BE74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27159DA01A3586CC00E6BE74 /* BlackcatKikiLo.app */,
+				27159DBC1A3586CC00E6BE74 /* BlackcatKikiLoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27159DA21A3586CC00E6BE74 /* BlackcatKikiLo */ = {
+			isa = PBXGroup;
+			children = (
+				2788E6791DED559400EF94FC /* Resources */,
+				27159DA71A3586CC00E6BE74 /* AppDelegate.h */,
+				27159DA81A3586CC00E6BE74 /* AppDelegate.m */,
+				27159DDF1A359B6400E6BE74 /* EditViewController.h */,
+				27159DE01A359B6400E6BE74 /* EditViewController.m */,
+				27159DAD1A3586CC00E6BE74 /* ViewController.h */,
+				27159DAE1A3586CC00E6BE74 /* ViewController.m */,
+				27159DB51A3586CC00E6BE74 /* LaunchScreen.xib */,
+				27159DB01A3586CC00E6BE74 /* Main.storyboard */,
+				27159DAA1A3586CC00E6BE74 /* BlackcatKikiLo.xcdatamodeld */,
+				27159DA31A3586CC00E6BE74 /* Supporting Files */,
+				2788E6841DED579200EF94FC /* AppIcon.xcassets */,
+			);
+			path = BlackcatKikiLo;
+			sourceTree = "<group>";
+		};
+		27159DA31A3586CC00E6BE74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27159DA41A3586CC00E6BE74 /* Info.plist */,
+				27159DA51A3586CC00E6BE74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27159DBF1A3586CC00E6BE74 /* BlackcatKikiLoTests */ = {
+			isa = PBXGroup;
+			children = (
+				27159DC21A3586CD00E6BE74 /* BlackcatKikiLoTests.m */,
+				27159DC01A3586CC00E6BE74 /* Supporting Files */,
+			);
+			path = BlackcatKikiLoTests;
+			sourceTree = "<group>";
+		};
+		27159DC01A3586CC00E6BE74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27159DC11A3586CC00E6BE74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2788E6791DED559400EF94FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2788E67A1DED559400EF94FC /* Background.png */,
+				2788E67B1DED559400EF94FC /* Icon.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27159D9F1A3586CC00E6BE74 /* BlackcatKikiLo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27159DC61A3586CD00E6BE74 /* Build configuration list for PBXNativeTarget "BlackcatKikiLo" */;
+			buildPhases = (
+				27159D9C1A3586CC00E6BE74 /* Sources */,
+				27159D9D1A3586CC00E6BE74 /* Frameworks */,
+				27159D9E1A3586CC00E6BE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackcatKikiLo;
+			productName = BlackcatKikiLo;
+			productReference = 27159DA01A3586CC00E6BE74 /* BlackcatKikiLo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27159DBB1A3586CC00E6BE74 /* BlackcatKikiLoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27159DC91A3586CD00E6BE74 /* Build configuration list for PBXNativeTarget "BlackcatKikiLoTests" */;
+			buildPhases = (
+				27159DB81A3586CC00E6BE74 /* Sources */,
+				27159DB91A3586CC00E6BE74 /* Frameworks */,
+				27159DBA1A3586CC00E6BE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27159DBE1A3586CC00E6BE74 /* PBXTargetDependency */,
+			);
+			name = BlackcatKikiLoTests;
+			productName = BlackcatKikiLoTests;
+			productReference = 27159DBC1A3586CC00E6BE74 /* BlackcatKikiLoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27159D981A3586CC00E6BE74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lo Chi Yun";
+				TargetAttributes = {
+					27159D9F1A3586CC00E6BE74 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 36P5V2USXN;
+						ProvisioningStyle = Automatic;
+					};
+					27159DBB1A3586CC00E6BE74 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 36P5V2USXN;
+						TestTargetID = 27159D9F1A3586CC00E6BE74;
+					};
+				};
+			};
+			buildConfigurationList = 27159D9B1A3586CC00E6BE74 /* Build configuration list for PBXProject "BlackcatKikiLo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27159D971A3586CC00E6BE74;
+			productRefGroup = 27159DA11A3586CC00E6BE74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27159D9F1A3586CC00E6BE74 /* BlackcatKikiLo */,
+				27159DBB1A3586CC00E6BE74 /* BlackcatKikiLoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27159D9E1A3586CC00E6BE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2788E6851DED579200EF94FC /* AppIcon.xcassets in Resources */,
+				27159DB21A3586CC00E6BE74 /* Main.storyboard in Resources */,
+				2788E67E1DED559400EF94FC /* Background.png in Resources */,
+				2788E67F1DED559400EF94FC /* Icon.png in Resources */,
+				27159DB71A3586CC00E6BE74 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27159DBA1A3586CC00E6BE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27159D9C1A3586CC00E6BE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27159DA91A3586CC00E6BE74 /* AppDelegate.m in Sources */,
+				27159DAC1A3586CC00E6BE74 /* BlackcatKikiLo.xcdatamodeld in Sources */,
+				27159DAF1A3586CC00E6BE74 /* ViewController.m in Sources */,
+				27159DA61A3586CC00E6BE74 /* main.m in Sources */,
+				27159DE11A359B6400E6BE74 /* EditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27159DB81A3586CC00E6BE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27159DC31A3586CD00E6BE74 /* BlackcatKikiLoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27159DBE1A3586CC00E6BE74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27159D9F1A3586CC00E6BE74 /* BlackcatKikiLo */;
+			targetProxy = 27159DBD1A3586CC00E6BE74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27159DB01A3586CC00E6BE74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27159DB11A3586CC00E6BE74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27159DB51A3586CC00E6BE74 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27159DB61A3586CC00E6BE74 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27159DC41A3586CD00E6BE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27159DC51A3586CD00E6BE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27159DC71A3586CD00E6BE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chi Yun Lo (K4VVZVUD4E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 36P5V2USXN;
+				INFOPLIST_FILE = BlackcatKikiLo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlackcatKikiLo.RandomTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27159DC81A3586CD00E6BE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chi Yun Lo (K4VVZVUD4E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 36P5V2USXN;
+				INFOPLIST_FILE = BlackcatKikiLo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlackcatKikiLo.RandomTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27159DCA1A3586CD00E6BE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 36P5V2USXN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlackcatKikiLoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackcatKikiLo.app/BlackcatKikiLo";
+			};
+			name = Debug;
+		};
+		27159DCB1A3586CD00E6BE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 36P5V2USXN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlackcatKikiLoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackcatKikiLo.app/BlackcatKikiLo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27159D9B1A3586CC00E6BE74 /* Build configuration list for PBXProject "BlackcatKikiLo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27159DC41A3586CD00E6BE74 /* Debug */,
+				27159DC51A3586CD00E6BE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27159DC61A3586CD00E6BE74 /* Build configuration list for PBXNativeTarget "BlackcatKikiLo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27159DC71A3586CD00E6BE74 /* Debug */,
+				27159DC81A3586CD00E6BE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27159DC91A3586CD00E6BE74 /* Build configuration list for PBXNativeTarget "BlackcatKikiLoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27159DCA1A3586CD00E6BE74 /* Debug */,
+				27159DCB1A3586CD00E6BE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27159DAA1A3586CC00E6BE74 /* BlackcatKikiLo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27159DAB1A3586CC00E6BE74 /* BlackcatKikiLo.xcdatamodel */,
+			);
+			currentVersion = 27159DAB1A3586CC00E6BE74 /* BlackcatKikiLo.xcdatamodel */;
+			path = BlackcatKikiLo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27159D981A3586CC00E6BE74 /* Project object */;
+}
